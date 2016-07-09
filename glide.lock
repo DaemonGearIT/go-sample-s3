@@ -1,0 +1,27 @@
+hash: 7c740d510f905819e1c88a606d1a65dc226ffee6fd91df990c36dc0dc1ba0cd8
+updated: 2016-07-08T15:44:44.059470806-04:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: 90dec2183a5f5458ee79cbaf4b8e9ab910bc81a6
+  subpackages:
+  - service/s3
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/request
+  - aws/signer/v4
+  - private/protocol
+  - private/protocol/restxml
+  - private/waiter
+  - aws/credentials
+  - private/protocol/rest
+  - private/protocol/query
+  - private/protocol/xml/xmlutil
+  - private/protocol/query/queryutil
+- name: github.com/go-ini/ini
+  version: cf53f9204df4fbdd7ec4164b57fa6184ba168292
+- name: github.com/jmespath/go-jmespath
+  version: 0b12d6b521d83fc7f755e7cfc1b1fbdd35a01a74
+devImports: []

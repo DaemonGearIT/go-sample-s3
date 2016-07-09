@@ -1,0 +1,5 @@
+package: go-sample-s3
+import:
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - service/s3
